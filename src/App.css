@@ -1,0 +1,28 @@
+body {
+  color: #555;
+  margin: 0 auto;
+  max-width: 50em;
+  font-size: 25px;
+  line-height: 1.5;
+  padding: 4em 1em;
+}
+
+.ingredients-container {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+.ingredients-list {
+  list-style-type:none;
+}
+
+.ingredient-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+ul li::before { 
+  content: none;
+}
